@@ -1,9 +1,80 @@
-/*Tipo de dato null y undefined*/
-let variableExistente = null;
-let variableNoExistente = undefined;
+/******Tipo de dato Set***********/
+const data = new Set();
+data.add("Miguel");
+data.add("CASTRO");
 
-console.log(typeof(variableExistente));
-console.log(typeof(variableNoExistente));
+console.log(data);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************Tipo d datos Maps************/
+// const lista = new Map();
+// lista.set("Nombre", "Miguel");
+// lista.set("aPELLIDO", ["Castro", "Escamilla"]);
+// lista.delete("aPELLIDO");
+// console.log(lista);
+
+
+
+
+
+
+
+
+// 
+
+
+
+/*Tipo de dato Objeto*/
+// const informacion = {
+//     personal: {
+//         edad: 23,
+//         nombre: "Miguel",
+//         altuta: 1.63
+//     },
+//     vivienda: {
+//         dirrecion: "Calle 35",
+//         pais: "Colombia",
+//         departamento: "Santander",
+//         lan: -7554.545,
+//         lon: 546.468
+//     },
+//     motrar(){
+//         return `${this.personal.nombre} * ${this.personal.edad}`;
+//     }
+// };
+// informacion.personal.nombre = "Miguel Angel Castro";
+// console.log(informacion.motrar());
+// console.log(informacion);
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tipo de dato null y undefined*/
+// let variableExistente = null;
+// let variableNoExistente = undefined;
+
+// console.log(typeof(variableExistente));
+// console.log(typeof(variableNoExistente));
 
 
 
